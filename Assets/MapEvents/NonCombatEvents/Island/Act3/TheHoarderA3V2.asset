@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: TheHoarderA3V2
+  m_EditorClassIdentifier: Assembly-CSharp::NonCombatEvents
+  title: The Hoarder
+  eventDescription: A little but round figure comes out of the bushes and approaches
+    you. "Shinies, I see you have shinies, perhaps you would like to trade" the figure
+    takes off his backpack and offers to trade.
+  image: {fileID: 21300000, guid: dcbc23970493b4c4693b41e5cfc206fb, type: 3}
+  eventChoices:
+  - choicePreDescription: Give him 5 doubloons
+    choicePostDescription: The man takes your coin and throws you a small but well
+      prepared fish. It smells delicious. The man scurries away with the doubloons.
+    choiceConsequences:
+    - typeOfConsequence: 7
+      target: 0
+      xp: 0
+      gold: 5
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 4
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 11400000, guid: 1edb525f22714fe4685f24898bb840e0, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Give him a respectable sum of 20 doubloons.
+    choicePostDescription: The man eagerly snatches your coin and throws something
+      at your face. You catch the flying item and find that it is a well filled flask
+      of rum. You look around and the man has disappeared.
+    choiceConsequences:
+    - typeOfConsequence: 7
+      target: 0
+      xp: 0
+      gold: 20
+      hp: 0
+      item: {fileID: 11400000, guid: c778e26f127968e4cac48f398472fb33, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 4
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 11400000, guid: a59a7973000db9d4a8bde8413d204d8b, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Give him a plentiful sum of 100 doubloons
+    choicePostDescription: The man looks suspiciously at you before taking the coin
+      and tells you to turn around. You do so and find a whole keg of ale. You wonder
+      how that could fit into his backpack. He seizes the moment of confusion and
+      takes the coin and runs away.
+    choiceConsequences:
+    - typeOfConsequence: 7
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 100
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 4
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 11400000, guid: 88475f91ccabb4f4982d4e67a5ccdeb0, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Leave him be
+    choicePostDescription: You decide to leave him, he clearly looks too desperate
+      to be worth any trust. You feel a sharp pain in your ankle as you turn around,
+      the man has taken a bite of your foot. You take 5 points of damage as he bites
+      and runs away.
+    choiceConsequences:
+    - typeOfConsequence: 3
+      target: 1
+      xp: 0
+      gold: 0
+      hp: 5
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 4
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 11400000, guid: b2335d340f42a5a469461d215b7f4229, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []

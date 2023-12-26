@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db801d4742b52045b8011be5c38b6f6, type: 3}
+  m_Name: BossFishFighter
+  m_EditorClassIdentifier: 
+  fighterInformation:
+    characterName: Battler
+    prefabObject: {fileID: 8769318876588778766, guid: 871c3fea63a1f6d478f80db956058800,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 34849c94baf989741adfe3358de5677f,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: 6cd70943b09293c4ba223b44f01b4315,
+      type: 3}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 85
+    currentHP: 85
+    meleeMinDMG: 22
+    meleeMaxDMG: 30
+    rangedMinDMG: 0
+    rangedMaxDMG: 0
+    critChance: 0.08
+    activeOutDamageModifier: 0
+    activeInDamageModifier: 0

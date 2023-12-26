@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0e8dd688af71f41bd4819ed4ef7b18, type: 3}
+  m_Name: DevonAgewe
+  m_EditorClassIdentifier: 
+  bossIntro: {fileID: 11400000, guid: 5db8a3be6ab466c498cce85129f33c64, type: 2}
+  characterBlueprints:
+  - {fileID: 11400000, guid: 4ab4ab47b1dd00042ba0114e8bf5b34d, type: 2}
+  - {fileID: 11400000, guid: 491589e8d328b404489ea1332e2e411e, type: 2}
+  - {fileID: 11400000, guid: e29f6922cd5f557448a3eb9820bc0e9f, type: 2}
+  - {fileID: 11400000, guid: e78c4205b5cdb07499e8d34c7af64848, type: 2}
+  shipSprite: {fileID: 21300000, guid: 6f4d0125cc1828d4382fcf144d7f5a9b, type: 3}
+  shipRailing: {fileID: 21300000, guid: 027a96013c6867043a5b49855c34966c, type: 3}
+  shipHP: 150
+  isFinalBoss: 1

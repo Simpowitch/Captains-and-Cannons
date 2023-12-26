@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Islands
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Islands'
+  subjectDescription: "You move between islands on the big map. There are a number
+    of islands in each zone and on the way to an island you can encounter different
+    combat and non-combat events. When you arrive at an island you can encounter
+    an island event or different taverns where you can buy characters. \r\n\nIslands
+    are checkpoints on the map that hold events for the player to interact with.\n\nIslands
+    are connected with paths to travel between them. \n\nYou cannot move backwards
+    to previous islands on the map.\n\nIslands can conist of:\nTaverns - recruit
+    new crew members\nShipyards - recruit new crew members + repair ship\nShops -
+    Buy items\nUnknown locations - Scenarios that can harm or help your crew\n\n\n\n\n\n\n"
+  subjectImage: {fileID: 21300000, guid: 5ec9fb6d45dc60341900cdbb1c426e00, type: 3}

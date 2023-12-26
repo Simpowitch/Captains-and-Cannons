@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185b2f5b08492e04c958e49044251332, type: 3}
+  m_Name: JohnnyGold
+  m_EditorClassIdentifier: 
+  captainInformation:
+    characterName: Johnny Gold
+    prefabObject: {fileID: 8769318876588778766, guid: 7ddc56e604b2a9044b2486c558a5d02f,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: c9905df9f76f25447aa6a1dd3182db7e,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: e78f572876578eb448014db209effbd1,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: ee2e6c14fd7c31e48a2bf7bde03673e6, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 98924393a501a864a99dfcbcd84ef412,
+      type: 3}
+    backstory: "Johnny always had a habit of taking things too literally. In his
+      early days he was often complimented by his own mother to have such bright
+      and good looking teeth, but facing himself within his own reflection proved
+      to be quite unsatisfying. Having normal, white teeth was no satisfaction for
+      a man of his caliber, which would result in him getting golden teeth from a
+      mysterious salesman. However these teeth turned out to have a strange effect,
+      as it would prove to have the ability to bring great fortune to his surroundings.\r
+      This has allowed him to gain the reputation that he currently beholds, making
+      him one of the most famous pirates of all time."
+    maxHP: 100
+    currentHP: 100
+    meleeMinDMG: 4
+    meleeMaxDMG: 8
+    rangedMinDMG: 7
+    rangedMaxDMG: 14
+    critChance: 0.1
+    moraleDMGIncreaseModifier: 0.1
+    moraleDMGDecreaseModifier: 0.1

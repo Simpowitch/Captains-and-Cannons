@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185b2f5b08492e04c958e49044251332, type: 3}
+  m_Name: HounganAlim
+  m_EditorClassIdentifier: 
+  captainInformation:
+    characterName: Houngan Alim
+    prefabObject: {fileID: 2684282887818726817, guid: ce7bcd95ab1811f40822ecfe42e62bd0,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: f4135649ed210ca4fa163e21db48dd52,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: e78f572876578eb448014db209effbd1,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: 522d39b31d660514d8bb372f87a45622, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 98924393a501a864a99dfcbcd84ef412,
+      type: 3}
+    backstory: Houngan Alim was a simple fish peddler barely making ends meet and
+      paying half of his earnings to the congregation. When he was unable to make
+      this payment, they took it in blood. But Houngan did not die. He was given
+      a second chance by nefarious forces, now he will claim what is rightfully his.
+    maxHP: 110
+    currentHP: 110
+    meleeMinDMG: 6
+    meleeMaxDMG: 10
+    rangedMinDMG: 6
+    rangedMaxDMG: 10
+    critChance: 0.25
+    moraleDMGIncreaseModifier: 0.1
+    moraleDMGDecreaseModifier: 0.1

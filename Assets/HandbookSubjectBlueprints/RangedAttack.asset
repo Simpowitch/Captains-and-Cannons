@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: RangedAttack
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Ranged Attack'
+  subjectDescription: 'Ranged attacks are performed by selecting a valid character(Captains,
+    chefs and gunners ) with a ranged action.
+
+
+    Click the red ranged icon in
+    the actionbar to prepare the action.
+
+    Ranged attacks have no range limit
+    but are generally weaker than melee attacks.
+
+
+    Once a ranged action is prepared
+    right click an enemy target to perform the attack.
+
+
+    This action will cost
+    all remaining actions points on the selected character.'
+  subjectImage: {fileID: 21300000, guid: e87a35f99c5dc844ba6140b404c6a556, type: 3}

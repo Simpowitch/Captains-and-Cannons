@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db801d4742b52045b8011be5c38b6f6, type: 3}
+  m_Name: ByakkoAme
+  m_EditorClassIdentifier: 
+  fighterInformation:
+    characterName: Byakko Ame
+    prefabObject: {fileID: 1165745449039899930, guid: 06d9a4a856751e547a2db6d820c00270,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 484684554c0235d40b5a6d06411e5692,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: 6cd70943b09293c4ba223b44f01b4315,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: cc9bbfdfe4df7734596b3bb7555b50ee, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 79c56f5288e36fe49b813d78babf2a96,
+      type: 3}
+    backstory: Byakko Ame is merely a ghost of his former self, as he does not look
+      back on his past nor his name given at birth. Ever since "the incident" with
+      his family's death, he swears not to ever turn back to his previous life and
+      now instead only seeks vengeance.
+    maxHP: 72
+    currentHP: 72
+    meleeMinDMG: 18
+    meleeMaxDMG: 24
+    rangedMinDMG: 0
+    rangedMaxDMG: 0
+    critChance: 0.12
+    activeOutDamageModifier: 0.5
+    activeInDamageModifier: 0.25

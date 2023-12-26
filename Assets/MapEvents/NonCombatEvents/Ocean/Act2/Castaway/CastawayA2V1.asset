@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: CastawayA2V1
+  m_EditorClassIdentifier: 
+  title: Castaway
+  eventDescription: 'You spot a person floating around on some debris, must be a
+    castaway from a recent shipwreck. '
+  image: {fileID: 21300000, guid: 517998c39746e5b4790ba146f5c4d024, type: 3}
+  eventChoices:
+  - choicePreDescription: Recruit the person to your crew
+    choicePostDescription: You pull the body onto your ship. The person is happy
+      to be alive, thanks you and joins the crew to repay you for your help. Your
+      crew increases welcomes the newfound member.
+    choiceConsequences:
+    - typeOfConsequence: 9
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList:
+      - {fileID: 11400000, guid: c2248031e60149543bf2afc1d6231d15, type: 2}
+      - {fileID: 11400000, guid: 801996b8591afd84da2422eca9706285, type: 2}
+      - {fileID: 11400000, guid: c566e3760e4c1e946838fd3bb15a2c91, type: 2}
+      - {fileID: 11400000, guid: 961843d29153eef46b6fe77148c24d3a, type: 2}
+      - {fileID: 11400000, guid: 05882eead238707439637605bf0f1ace, type: 2}
+      - {fileID: 11400000, guid: a693bfafa5caffe479d33b409e26de3f, type: 2}
+      - {fileID: 11400000, guid: cd25c3c4324b3a845ae05695192d515f, type: 2}
+      - {fileID: 11400000, guid: fd523cb0af3212143bf7c95eba7e938e, type: 2}
+      - {fileID: 11400000, guid: 63696dcba1aea8845a8223902be84b6c, type: 2}
+      - {fileID: 11400000, guid: bbbaf362b453d45478cd55791e0e03f6, type: 2}
+      - {fileID: 11400000, guid: b2f98130c70533649b09a67c36be91c0, type: 2}
+      - {fileID: 11400000, guid: 3af15043959b63a42bbf85d53af53b19, type: 2}
+  - choicePreDescription: Escort the person to the closest civilization.
+    choicePostDescription: You save the person and they are grateful and give you
+      a few coins. You get 100 doubloons.
+    choiceConsequences:
+    - typeOfConsequence: 6
+      target: 0
+      xp: 0
+      gold: 80
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Leave the person behind
+    choicePostDescription: You sail away and see the person  stretching it's arms
+      as you leave.
+    choiceConsequences:
+    - typeOfConsequence: 0
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

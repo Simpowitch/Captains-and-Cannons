@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Doubloons
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Doubloons'
+  subjectDescription: "Doubloon is the currency used in the game.\n\nThe player can
+    hire new crew members, buy items and upgrade or repair the ship.\n\nThe doubloons
+    are visible in the map view.\n\nYou aquire doubloons from combat and non-combat
+    events. \r\n"
+  subjectImage: {fileID: 21300000, guid: 8a4ee8186c20d114abef861b77206036, type: 3}

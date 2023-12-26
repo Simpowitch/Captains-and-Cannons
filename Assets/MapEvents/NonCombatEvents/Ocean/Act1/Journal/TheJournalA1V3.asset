@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: TheJournalA1V3
+  m_EditorClassIdentifier: 
+  title: The Journal
+  eventDescription: At a suspicious looking island you find what seems to be the
+    journal of another captain. There seem to be instructions to a hidden treasure
+    on the island along a narrow river.
+  image: {fileID: 21300000, guid: 5b529294dcd2ee2408838da118c24300, type: 3}
+  eventChoices:
+  - choicePreDescription: Risk sailing down the narrow river.
+    choicePostDescription: As you approach the river the hull hits a rock and the
+      ship takes 15 damage. It is not safe to sail down this river.
+    choiceConsequences:
+    - typeOfConsequence: 3
+      target: 4
+      xp: 0
+      gold: 0
+      hp: 15
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Keep sailing and leave the island.
+    choicePostDescription: You leave the island behind and keep sailing.
+    choiceConsequences:
+    - typeOfConsequence: 0
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

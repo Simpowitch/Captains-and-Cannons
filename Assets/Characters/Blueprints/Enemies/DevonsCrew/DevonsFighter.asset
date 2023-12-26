@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db801d4742b52045b8011be5c38b6f6, type: 3}
+  m_Name: DevonsFighter
+  m_EditorClassIdentifier: 
+  fighterInformation:
+    characterName: Skinner
+    prefabObject: {fileID: 2698827938680198577, guid: 501bc8596a6d1e24583b7b2d31a957b7,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 4a4442376fbc0a74bbae11ba928731d1,
+      type: 3}
+    specialAbilityIcon: {fileID: 0}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 144
+    currentHP: 144
+    meleeMinDMG: 30
+    meleeMaxDMG: 40
+    rangedMinDMG: 0
+    rangedMaxDMG: 0
+    critChance: 0.15
+    activeOutDamageModifier: 0
+    activeInDamageModifier: 0

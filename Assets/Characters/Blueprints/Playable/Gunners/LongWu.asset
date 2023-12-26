@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec60009f8a788f4d9bfd3b33f61900d, type: 3}
+  m_Name: LongWu
+  m_EditorClassIdentifier: 
+  gunnerInformation:
+    characterName: "L\xF3ng W\xFA"
+    prefabObject: {fileID: 5038776882095982444, guid: e788f69ece77e2847a532210560cbe73,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 164ac2ae94295aa4fa5950edf34ca992,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: b135dec29f71b6d44a7e3ff5f83cce5e,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: 1e53a9c587577b54f8d5342542026f54, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: d36b4782f0273374ea5f5710d229bff5,
+      type: 3}
+    backstory: "L\xF3ng W\xFA lives every day like it's his last, he is not afraid
+      of death. In fact he believes he has conquered it. This is why he does what
+      no sane person would do: he uses fireworks as his weapons, he does it for the
+      game of chance that it provides. It's just as likely that it will backfire
+      as it will kill his opponent."
+    maxHP: 65
+    currentHP: 65
+    meleeMinDMG: 2
+    meleeMaxDMG: 6
+    rangedMinDMG: 16
+    rangedMaxDMG: 28
+    critChance: 0.08
+    specialAbilityMinDamage: 18
+    specialAbilityMaxDamage: 32

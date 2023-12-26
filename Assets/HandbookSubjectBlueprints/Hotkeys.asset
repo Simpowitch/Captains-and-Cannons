@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Hotkeys
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Hotkeys'
+  subjectDescription: "Instead of clicking on abilities you can use hotkeys. \r\n\n1:
+    Movement\r.\n2: Melee Attack\r.\n3: Ranged Attack\r.\n4: Special Ability\r.\n5:
+    Use Cannon.\n\nYou can also use hotkeys for other actions.\n\nTab: Cycle through
+    your characters\nSpace: End your turn"
+  subjectImage: {fileID: 21300000, guid: 5ffbb5213e939c04b84b739aaccb90fe, type: 3}

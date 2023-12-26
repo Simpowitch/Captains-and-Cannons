@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3853101494370688935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3853101494370688921}
+  - component: {fileID: 3853101494370688934}
+  - component: {fileID: 3853101494370688923}
+  - component: {fileID: 5224758190081663481}
+  - component: {fileID: 210703477}
+  m_Layer: 0
+  m_Name: Managers Combat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3853101494370688921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3853101494370688935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3853101494370688934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3853101494370688935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207780848545da040b8d944d9808fb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSpriteMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  outlineSelectionSpriteMat: {fileID: 2100000, guid: 39f762134edd66c4aac6906c6feb08ea,
+    type: 2}
+  outlineTargetSpriteMat: {fileID: 2100000, guid: 9ea6c166f52fdb8409da7c4fdfbd1008,
+    type: 2}
+  ai: {fileID: 210703477}
+  playerCharacterTransform: {fileID: 0}
+  aiCharacterTransform: {fileID: 0}
+  ships:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &3853101494370688923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3853101494370688935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ce88b71ae04054491f511c5e50ca79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5224758190081663481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3853101494370688935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc397b9d1a2194b448e51af268f3578d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &210703477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3853101494370688935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a82a486eb277848ba70cbba8a1bc62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeDamagePrio: 1
+  rangedDamagePrio: 1
+  targetCaptainPrio: 1
+  targetNonCaptainPrio: 0.9
+  killNonCaptainPoint: 100
+  killCaptainPoint: 1000
+  killShipPoint: 1000
+  nonGunnerCannonPrio: 0.2
+  gunnerCanonPrio: 1
+  meleeChasemovePrio: 1
+  rangedAvertmovePrio: 1
+  waitTimeBetweenCharacters: 2
+  waitTimeBetweenActions: 1

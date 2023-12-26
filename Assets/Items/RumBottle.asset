@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e9b59514e451f44aeb85635f84f6e1, type: 3}
+  m_Name: RumBottle
+  m_EditorClassIdentifier: 
+  itemName: Bottle of rum
+  itemValue: 100
+  itemSprite: {fileID: 21300000, guid: 62f164f7184b41548b997a93dc1522c6, type: 3}
+  description: Gives 100 health to a single character when consumed in battle
+  myTargetType: 0
+  myEffect: {fileID: 11400000, guid: c739f5de8cbcec244b9ba81d04e76e88, type: 2}

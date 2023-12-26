@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcb4550d3379834784e314812052b7f, type: 3}
+  m_Name: RedCoatChefMedium
+  m_EditorClassIdentifier: 
+  chefInformation:
+    characterName: Culinarian
+    prefabObject: {fileID: 4883301610289680027, guid: 637499aef2139ec4ea89c597f3c11cba,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 6fe29cf9cf4969f40bbef260296adbb9,
+      type: 3}
+    specialAbilityIcon: {fileID: 0}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 25
+    currentHP: 25
+    meleeMinDMG: 3
+    meleeMaxDMG: 4
+    rangedMinDMG: 4
+    rangedMaxDMG: 6
+    critChance: 0.03
+    healing: 0

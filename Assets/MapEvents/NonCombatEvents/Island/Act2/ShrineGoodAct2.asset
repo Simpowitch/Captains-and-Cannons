@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: ShrineGoodAct2
+  m_EditorClassIdentifier: Assembly-CSharp::NonCombatEvents
+  title: Shrine
+  eventDescription: "You find a cave on the island, but as you walk inside the exit
+    is closed shut. It's dark, except from inside the cave, you spot an orange glow,
+    you walk close to it. As you walk closer you hear a whisper. \u201CA sacrifice\u201D.
+    Some skeletons suddenly appear and surround you. You're either gonna have to
+    make a sacrifice or fight your way out of here."
+  image: {fileID: 21300000, guid: b2ab5ba792e1f85479a5812baac10eff, type: 3}
+  eventChoices:
+  - choicePreDescription: Run and fight
+    choicePostDescription: You try to escape the cave. Everyone loses 5 health in
+      the escape from the fierce skeletons.
+    choiceConsequences:
+    - typeOfConsequence: 3
+      target: 3
+      xp: 0
+      gold: 0
+      hp: 5
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Sacrifice some of your own blood
+    choicePostDescription: You make a small cut in the palm of your hand and let
+      one drop of blood out. You lose 15 health. The door to the cave opens, the
+      skeletons disappear and you find a shrine providing you with 120 doubloons
+      and 70 experience to everyone.
+    choiceConsequences:
+    - typeOfConsequence: 6
+      target: 0
+      xp: 0
+      gold: 120
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 3
+      target: 1
+      xp: 0
+      gold: 0
+      hp: 15
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 1
+      target: 3
+      xp: 70
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

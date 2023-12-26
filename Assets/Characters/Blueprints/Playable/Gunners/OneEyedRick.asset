@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec60009f8a788f4d9bfd3b33f61900d, type: 3}
+  m_Name: OneEyedRick
+  m_EditorClassIdentifier: 
+  gunnerInformation:
+    characterName: One Eyed Rick
+    prefabObject: {fileID: 7982997725032535917, guid: 0bfffaf7c615bb14fb632b3f0b5c703a,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 733d0c204d27a7441b1fb7737399b888,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: b135dec29f71b6d44a7e3ff5f83cce5e,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: e07fe95195b5ed34994606710b2f74cd, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 79c56f5288e36fe49b813d78babf2a96,
+      type: 3}
+    backstory: "\u201COne-Eyed\u201D Rick has an impressive talent for alluring both
+      women and men alike and finds himself using this talent to manipulate people
+      for his own benefit. During his voyage on the seas, he has won the hearts of
+      several hundred individuals, while also taking their valuables for himself.
+      His greed has always been his greatest flaw as he will set anything aside to
+      get his hands on any shiny valuables around."
+    maxHP: 44
+    currentHP: 44
+    meleeMinDMG: 4
+    meleeMaxDMG: 8
+    rangedMinDMG: 10
+    rangedMaxDMG: 15
+    critChance: 0.05
+    specialAbilityMinDamage: 12
+    specialAbilityMaxDamage: 18

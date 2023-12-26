@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: SunnyDayA1V1
+  m_EditorClassIdentifier: 
+  title: Sunny day
+  eventDescription: The wind stops and the sun is frying your crew. As the ship slows
+    down to a halt your crew wants to take a swim. as the captain you make the judgement...
+  image: {fileID: 21300000, guid: e863d4cde39e3f9409c6f37920606bdc, type: 3}
+  eventChoices:
+  - choicePreDescription: It is safe to swim
+    choicePostDescription: "The crew happily jumps into the water only to discover
+      a school of jellyfish. \nAll crew members got stung by the jellyfish and takes
+      10 damage each."
+    choiceConsequences:
+    - typeOfConsequence: 3
+      target: 2
+      xp: 0
+      gold: 0
+      hp: 10
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 1
+      target: 2
+      xp: 20
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: It's not safe
+    choicePostDescription: 'The crew hide in the shade of the sail doing their best
+      to survive the heat. '
+    choiceConsequences:
+    - typeOfConsequence: 0
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

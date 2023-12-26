@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: EnemyTurn
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Enemy Turn'
+  subjectDescription: "The enemy turn starts when the player press the \u201CEnd
+    Turn\u201D button at the bottom middle of the screen, the button will then switch
+    to \u201CEnemy Turn\u201D.\r\n\nDuring the enemy turn the AI will perform actions
+    until all APs are spent.\n\nDuring this time the player may not do any moves."
+  subjectImage: {fileID: 21300000, guid: b680f7de78f633243866cff7691bb1db, type: 3}

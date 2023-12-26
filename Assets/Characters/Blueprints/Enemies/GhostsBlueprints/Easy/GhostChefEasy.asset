@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcb4550d3379834784e314812052b7f, type: 3}
+  m_Name: GhostChefEasy
+  m_EditorClassIdentifier: 
+  chefInformation:
+    characterName: Spectral Barman
+    prefabObject: {fileID: 2698827938680198577, guid: 5548aaf7fc62bd243b94fef5436a9c74,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 8fdacd6818a32964fbfc581a905e374e,
+      type: 3}
+    specialAbilityIcon: {fileID: 0}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 90
+    currentHP: 90
+    meleeMinDMG: 4
+    meleeMaxDMG: 10
+    rangedMinDMG: 5
+    rangedMaxDMG: 9
+    critChance: 0.08
+    healing: 0

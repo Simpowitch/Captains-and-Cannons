@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Fighters
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Fighters'
+  subjectDescription: 'The fighter is a damage class with high melee damage and low
+    ranged damage.
+
+
+    The fighter has a melee attack but no ranged attack.
+
+
+    Fighter
+    has an additional action point to spend on their turn.
+
+
+    The special ability
+    increase the character''s incoming and outgoing damage for a couple of rounds.
+
+'
+  subjectImage: {fileID: 21300000, guid: 411c8f21ad019b74eb08bd57c0827e91, type: 3}

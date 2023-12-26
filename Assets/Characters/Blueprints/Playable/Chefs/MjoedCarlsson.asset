@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcb4550d3379834784e314812052b7f, type: 3}
+  m_Name: MjoedCarlsson
+  m_EditorClassIdentifier: 
+  chefInformation:
+    characterName: Mjoed Carlsson
+    prefabObject: {fileID: 1749431814365819359, guid: 3a407bbb2d993f149b57887a81afcf26,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 7add4f14b2a7d6d41a335afba052a681,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: ee169ec614c0be445bb907a089b3a9a3,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: d39833a479c6360499e3d8094db98de0, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 7d4feca3db60c2e4e9543ad48e490f74,
+      type: 3}
+    backstory: Mjoed Carlsson is somewhat of a gourmand, he can combine the most
+      awful ingredients into a good meal. But his true passion is a good drink, this
+      is why he decided to go to sea, to increase his "taste library". He is trying
+      to find the most perfect drink, cause all good cooks know that you cannot have
+      a good solid meal without a fine drink.
+    maxHP: 70
+    currentHP: 70
+    meleeMinDMG: 3
+    meleeMaxDMG: 9
+    rangedMinDMG: 4
+    rangedMaxDMG: 8
+    critChance: 0.1
+    healing: 20

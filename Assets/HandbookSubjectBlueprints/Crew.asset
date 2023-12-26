@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Crew
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Crew'
+  subjectDescription: "The characters you have on your ship and fight with in combat
+    encounters are your crew. You can hire more crew through taverns and also find
+    crew in non-combat events. You can see your current crew on the table in your
+    ship.\n\nThe player crew can be viewed from the table view on the ship. by clicking
+    the flintlock gun. \n\nEach crew member has a backstory and a description how
+    their special ability works.\n\nNew crew members can be aquired through taverns,
+    shipyards or non-combat events."
+  subjectImage: {fileID: 0}

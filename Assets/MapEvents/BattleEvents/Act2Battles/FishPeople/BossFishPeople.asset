@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0e8dd688af71f41bd4819ed4ef7b18, type: 3}
+  m_Name: BossFishPeople
+  m_EditorClassIdentifier: 
+  bossIntro: {fileID: 11400000, guid: 4f4eee1e5505ff94e9486496fa7104ad, type: 2}
+  characterBlueprints:
+  - {fileID: 11400000, guid: 20f21d1c9c3824041882372b4242d47c, type: 2}
+  - {fileID: 11400000, guid: 3bdd947ebb215a04bbca90dbe05dd13a, type: 2}
+  - {fileID: 11400000, guid: 964bca4a9ff02144286cba79aea3b054, type: 2}
+  - {fileID: 11400000, guid: 7d2f5d46a31555c4586ffec532fc6a47, type: 2}
+  shipSprite: {fileID: 21300000, guid: 30dc0afdeadf528498cdcfe6d77db0b0, type: 3}
+  shipRailing: {fileID: 21300000, guid: 5af952c91dd33414298856a32d699114, type: 3}
+  shipHP: 120
+  isFinalBoss: 0

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Captains
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Captains'
+  subjectDescription: 'The captain is from start the strongest character. Each captains
+    has unique stats and from the start has different advantages.
+
+
+    The captains
+    are recognizable through their yellow health bar.
+
+
+    Captains do more damage
+    towards other captains.
+
+
+    The captain''s special ability gives an extra AP
+    to a friendly character.
+
+
+    Any character adjacent to a captains gains a moral
+    boost increasing it''s damage.
+
+
+    The captain takes less damage for each crew
+    member alive. this is shown with an icon below the healthbar for each crew member
+    alive.
+
+
+    If a captain dies the ship is defeated.'
+  subjectImage: {fileID: 21300000, guid: 0263b726ad2213b4e8829c8950aaa723, type: 3}

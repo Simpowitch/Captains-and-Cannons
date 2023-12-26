@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: SmallIslandA1V2
+  m_EditorClassIdentifier: 
+  title: Lonely Island
+  eventDescription: A small island appears in the distance. You decide to...
+  image: {fileID: 21300000, guid: 651c8411ddb2ea54b858e19be91a40be, type: 3}
+  eventChoices:
+  - choicePreDescription: Explore the island
+    choicePostDescription: As you approach the island you see a person desperately
+      waving. You laugh along to a story about how they were marooned for putting
+      a crab in the captains boot. You take the person aboard as you find the fella
+      to be funny and friendly.
+    choiceConsequences:
+    - typeOfConsequence: 9
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList:
+      - {fileID: 11400000, guid: 05882eead238707439637605bf0f1ace, type: 2}
+      - {fileID: 11400000, guid: c566e3760e4c1e946838fd3bb15a2c91, type: 2}
+      - {fileID: 11400000, guid: 63696dcba1aea8845a8223902be84b6c, type: 2}
+      - {fileID: 11400000, guid: bbbaf362b453d45478cd55791e0e03f6, type: 2}
+  - choicePreDescription: Keep sailing
+    choicePostDescription: You wave goodbye to the island and continue your journey.
+    choiceConsequences:
+    - typeOfConsequence: 0
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

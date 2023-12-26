@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: ABeginnersGuide
+  m_EditorClassIdentifier: 
+  subjectTitle: A Beginners guide
+  subjectDescription: "In combat select a character by left clicking. to use an ability
+    left click the ability then right click a target.\r\n\nAbilities cost action
+    points indicated by the blue water swirld above the characters\r\n\nYour ship
+    can store items. These items are found in the inventory in the lower left corner
+    of your screen.\r\n\nTry eliminating enemy crew members before attacking the
+    captain. the captain is stronger the more crew members he has alive. \r\n\nThis
+    is indicated by the shields below the healthbar\r\n"
+  subjectImage: {fileID: 0}

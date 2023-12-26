@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: RedCoatStormA1V3
+  m_EditorClassIdentifier: 
+  title: Ship in a Storm
+  eventDescription: A storm is up ahead. From the crow's nest another ship is spotted
+    heading into the storm. Going around the storm would take a few extra days.
+  image: {fileID: 21300000, guid: f19752f1af51c4f45b0faad72a846fbd, type: 3}
+  eventChoices:
+  - choicePreDescription: Pursue the ship into the storm
+    choicePostDescription: 'As you come closer to the other ship the ship appears
+      to be another pirate ship destroyed by the royal navy. A crate of potatoes
+      seemed to be intact. you bring it aboard at proceed through the storm causing
+      10 damage to the ship. '
+    choiceConsequences:
+    - typeOfConsequence: 4
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 20
+      item: {fileID: 11400000, guid: b2335d340f42a5a469461d215b7f4229, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 3
+      target: 4
+      xp: 0
+      gold: 0
+      hp: 10
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList:
+      - {fileID: 11400000, guid: bbbaf362b453d45478cd55791e0e03f6, type: 2}
+      - {fileID: 11400000, guid: 05882eead238707439637605bf0f1ace, type: 2}
+      - {fileID: 11400000, guid: cd25c3c4324b3a845ae05695192d515f, type: 2}
+      - {fileID: 11400000, guid: 3af15043959b63a42bbf85d53af53b19, type: 2}
+      - {fileID: 11400000, guid: b2f98130c70533649b09a67c36be91c0, type: 2}
+  - choicePreDescription: Go around the storm
+    choicePostDescription: 'You spot a big school of fish next to the ship. You decide
+      to fish and you catch enough to make it all the way without running out of
+      food. '
+    choiceConsequences:
+    - typeOfConsequence: 4
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 11400000, guid: 1edb525f22714fe4685f24898bb840e0, type: 2}
+      character: {fileID: 0}
+      randomCharacterList: []

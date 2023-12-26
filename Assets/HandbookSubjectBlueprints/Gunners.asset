@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e5871c00b7d7541be4fa2b89b15cfc, type: 3}
+  m_Name: Gunners
+  m_EditorClassIdentifier: 
+  subjectTitle: ' Gunners'
+  subjectDescription: 'The gunner is a damage class with high ranged damage and low
+    melee damage.
+
+
+    The gunner has a ranged attack and a melee attack.
+
+
+    Gunners
+    do more damage to the ship while using cannons.
+
+
+    Gunners recieve more damage
+    from melee attacks.
+
+
+    The special ability is an extra strong shot dealing
+    more damage to the target and has a cooldown for a couple of turns.'
+  subjectImage: {fileID: 21300000, guid: 26d9b8afb1431a849bae04c533a009bf, type: 3}

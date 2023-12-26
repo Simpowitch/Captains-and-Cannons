@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db801d4742b52045b8011be5c38b6f6, type: 3}
+  m_Name: CorrinSwales
+  m_EditorClassIdentifier: 
+  fighterInformation:
+    characterName: Corrin
+    prefabObject: {fileID: 4068250411598071218, guid: b0166f1a97801a84f87741f507d06fe2,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 29fbca37a9f5fbe45ab131222388facd,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: 6cd70943b09293c4ba223b44f01b4315,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: f3788719af4b09e4599dda5fd41eff20, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: d1e99fcf71b1671459b8aabff575c2d8,
+      type: 3}
+    backstory: Having weak kneecaps is generally not a positive physical trait for
+      the likes of pirates. This is the consequence that Corrin was forced to deal
+      with after he got both his kneecaps blown off in a cannonball related incident.
+      He has developed a jealousy of people who have particularly strong kneecaps,
+      as he perceives this to be a strong feature for masculine men to have. To compensate,
+      he has been aiming to improve his upper body strength to become a fierce duelist.
+    maxHP: 60
+    currentHP: 60
+    meleeMinDMG: 14
+    meleeMaxDMG: 18
+    rangedMinDMG: 0
+    rangedMaxDMG: 0
+    critChance: 0.1
+    activeOutDamageModifier: 0.5
+    activeInDamageModifier: 0.25

@@ -1,0 +1,65 @@
+﻿---------------------------
+Filformat och Pipeline
+---------------------------
+Filformatskrav:
+Cutscene = MP4
+
+Rekomendation för skapande av ny film och användande av befintligt film-projekt:
+Använd Adobe Media Encoder för att konvertera After Effects projektet till MP4.
+
+---------------------------
+Byggen (builds) och Kod-kompilering:
+---------------------------
+Nya byggen (builds) skapas genom Unitys eget interface: 
+	1. Uppdatera projektversion: 
+	(Unitys menysystem) Edit -> Project Settings (nytt fönster öppnas)
+	(Tab) Player 
+	(Fält) Version = önskat namn för versionen. 
+
+	2. Skapa bygget (build): 
+	(Unitys menysystem) File -> Build Settings (nytt fönster öppnas) 
+	(Knapp) Build. 
+
+Kod kompileras av Unity och förinställt program för redigering av kod automatiskt 
+vid förändringar i kod-filer i projektet.
+
+---------------------------
+Mjukvarukrav:
+---------------------------
+Adobe Photoshop (CC 21.1.2).
+Adobe After Effects (CC 2020).
+Adobe Media Encoder (CC 2020).
+Logic Pro X (10.5).
+Discord Stable 60315
+Unity Game Engine (2019.3.3f1).
+Valfritt kod-redigeringsprogram.
+
+---------------------------
+Hårdvarukrav (minimum):
+---------------------------
+OS: Windows 10, 64-bit
+Processor: Intel i5
+Memory: 4 GB RAM
+Graphics: Nvidia 450 GTS / Radeon HD 5750
+
+---------------------------
+Instruktioner för verktyg:
+---------------------------
+Krav: Universal Render Pipeline.
+Installation:
+	(Unitys menysystem) Window -> Package Manager (nytt fönster öppnas)
+	(Knapp) All
+	(Sök eller välj) Universal RP
+	(Knapp) Install	
+	(Unitys menysystem) Edit -> Project Settings (nytt fönster öppnas)
+	(Tab) Graphics
+	(Fält) Scriptable Render Pipeline Settings = Assets/Renderer/UniversalRenderPipelineAsset
+
+---------------------------
+Discord feedback och statistik rapporter:
+---------------------------
+För att ta emot rapporter från spelet krävs en discord server. 
+För att sätta upp för en ny server. Skapa en discord server och en kanal för statistik samt feedback (Se discord manualen).
+Klicka sedan på "Edit channel > Webhook > create webhook"
+Kopiera web adressen och byt ut de konstanta variablerna i scriptet "StatisticsToForm" 
+Klart. Nu kommer statistik rapporter skickas till de kanalerna.

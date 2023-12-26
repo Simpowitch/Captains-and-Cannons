@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185b2f5b08492e04c958e49044251332, type: 3}
+  m_Name: PirateCaptainEasyAct2
+  m_EditorClassIdentifier: 
+  captainInformation:
+    characterName: Pirate Captain
+    prefabObject: {fileID: 8769318876588778766, guid: e387523a16f651c4bb04238772eb6750,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 932e5c5c93c0f804d869605d20189945,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: e78f572876578eb448014db209effbd1,
+      type: 3}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 95
+    currentHP: 95
+    meleeMinDMG: 12
+    meleeMaxDMG: 14
+    rangedMinDMG: 7
+    rangedMaxDMG: 9
+    critChance: 0.05
+    moraleDMGIncreaseModifier: 0.15
+    moraleDMGDecreaseModifier: 0.15

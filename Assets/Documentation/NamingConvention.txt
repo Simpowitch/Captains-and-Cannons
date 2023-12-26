@@ -1,0 +1,81 @@
+﻿Namingconventions
+------------------------------
+All categories:
+English
+Short formal descriptive names to avoid confusion.
+
+------------------------------
+Script Naming:
+Avoid: Numbers, non-alpahabetical(ENG) signs(,._åäö€!"...)
+Do:CombatManager
+Don't: 	combatManager
+	CombatManager1
+	Combat_Manager
+Scripts
+	Fields: camelCase
+	Methods, Classes, Properties, Structs...: PascalCase
+	
+	public class ExampleClass
+	{
+		int exampleField
+		public int ExampleProperty
+    		{
+        		get { return exampleField; }
+    		}
+		void ExampleMethod()
+		{
+			//Do Something.		
+		}
+	}
+------------------------------
+Audio
+Avoid: non-alpahabetical(ENG) signs(,._åäö€!"...)
+Do:	WalkingOnPlank
+	(if multiple versions exist)
+	WalkingOnPlank1
+Don't:
+	WalkingOnPlank_1
+	walkingOnPlank
+	Walkingonplank
+	Walking_On_Plank
+	1WalkingOnPlank
+	WalkingOnPlankReal
+------------------------------
+Graphics
+Avoid: non-alpahabetical(ENG) signs(,._åäö€!"...)
+Do:	EnemyPirate
+	(if multiple versions exist)
+	EnemyPirate1
+Don't:
+	EnemyPirate_1
+	enemyPirate
+	Enemypirate
+	Enemy_Pirate
+	1EnemyPirate
+	EnemyPirateFinal
+------------------------------
+Prefabs
+Avoid: non-alpahabetical(ENG) signs(,._åäö€!"...)
+Do:	EnemyPirate
+	(if multiple versions exist)
+	EnemyPirate1
+Don't:
+	EnemyPirate_1
+	enemyPirate
+	Enemypirate
+	Enemy_Pirate
+	1EnemyPirate
+	EnemyPirateFinal
+------------------------------
+Scriptable Objects
+Avoid: non-alpahabetical(ENG) signs(,._åäö€!"...)
+Do:	FighterBlueprint
+	(if multiple versions exist)
+	FighterBlueprint1
+Don't:
+	FighterBlueprint_1
+	fighterBlueprint
+	Fighterblueprint
+	Fighter_Blueprint
+	1FighterBlueprint
+	FighterBlueprintFinal

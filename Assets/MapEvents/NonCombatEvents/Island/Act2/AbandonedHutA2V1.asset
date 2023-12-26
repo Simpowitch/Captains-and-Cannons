@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: AbandonedHutA2V1
+  m_EditorClassIdentifier: Assembly-CSharp::NonCombatEvents
+  title: Abandoned Hut
+  eventDescription: You find a beautiful beach, and there is an abandoned hut on
+    it, you might as well all rest for a bit and recuperate your strength.
+  image: {fileID: 21300000, guid: 16b791f5b40f2a84eb5c12183f6a8b80, type: 3}
+  eventChoices:
+  - choicePreDescription: Rest for a while
+    choicePostDescription: You feel much better. Everyone regain 25 health.
+    choiceConsequences:
+    - typeOfConsequence: 2
+      target: 3
+      xp: 0
+      gold: 0
+      hp: 25
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Search the hut for hidden things
+    choicePostDescription: "You spend some time looking for hidden objects or coins,
+      but you didn\u2019t find anything of interest."
+    choiceConsequences:
+    - typeOfConsequence: 0
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

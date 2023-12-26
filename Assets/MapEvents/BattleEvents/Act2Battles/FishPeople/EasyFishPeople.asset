@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0e8dd688af71f41bd4819ed4ef7b18, type: 3}
+  m_Name: EasyFishPeople
+  m_EditorClassIdentifier: 
+  bossIntro: {fileID: 0}
+  characterBlueprints:
+  - {fileID: 11400000, guid: e5dfe9eef4b7b7848b28268172645cfb, type: 2}
+  - {fileID: 11400000, guid: 0dc7201d4c287e342a9aed207200cd3a, type: 2}
+  - {fileID: 11400000, guid: 0dc7201d4c287e342a9aed207200cd3a, type: 2}
+  shipSprite: {fileID: 21300000, guid: 30dc0afdeadf528498cdcfe6d77db0b0, type: 3}
+  shipRailing: {fileID: 21300000, guid: 5af952c91dd33414298856a32d699114, type: 3}
+  shipHP: 100
+  isFinalBoss: 0

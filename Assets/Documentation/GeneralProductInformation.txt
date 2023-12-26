@@ -1,0 +1,27 @@
+Captains & Cannons
+
+---------------------------
+General Product Information
+---------------------------
+
+Contact Information
+---------------------------
+Simon Voss, woss.simon@gmail.com
+
+---------------------------
+Platform: Windows 10
+Source Language: English, Swedish
+Target Language(s): English
+Game Version: V1.0
+
+---------------------------
+Known Bugs
+---------------------------
+
+1. Information of what special ability the characters have when buying them at a tavern is missing. 
+
+2. The captains aura is not clearly presented to the player during battles. 
+
+3. You can switch which island you are going to if you select one of the possible island to go to, press "Set Sail!" and then quickly select another possible island to go to.  
+
+4. You can drag the map while in a non-combat event, shop, tavern or shipyard.

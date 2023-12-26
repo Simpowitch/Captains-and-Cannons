@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185b2f5b08492e04c958e49044251332, type: 3}
+  m_Name: CeciliaWasa
+  m_EditorClassIdentifier: 
+  captainInformation:
+    characterName: Cecilia Wasa
+    prefabObject: {fileID: 786346311129991307, guid: a1a0f7580c99bde42bd6b60039f5a1c9,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 26a60b9cbbcbc304f93bf3acb1be443e,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: e78f572876578eb448014db209effbd1,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: e5b99427139dd344ba85090b9e97d664, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 98924393a501a864a99dfcbcd84ef412,
+      type: 3}
+    backstory: Cecilia Wasa did not see the world as others did, ruled by men, they
+      were all fools. Cecilia Wasa was not to be ordered around. Everytime she got
+      sent out on missions in the word of the king, she always made sure to go off
+      road to recruit people to her crew. She intended to only have the best of the
+      best from all over the world. When her crew got big enough she would leave
+      the mainland to be her own woman and rule the way she saw fit at sea.
+    maxHP: 120
+    currentHP: 120
+    meleeMinDMG: 7
+    meleeMaxDMG: 14
+    rangedMinDMG: 4
+    rangedMaxDMG: 8
+    critChance: 0.1
+    moraleDMGIncreaseModifier: 0.1
+    moraleDMGDecreaseModifier: 0.1

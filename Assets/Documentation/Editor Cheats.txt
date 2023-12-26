@@ -1,0 +1,11 @@
+Captains & Cannons
+
+---------------------------
+In combat cheat codes(editor only) for test purposes
+---------------------------
+
+Shift+W (autowin)
+Shift+L (autolose)
+Shift+X (100XP to every character of your team, applied at win)
+Shift+R (restart combat)
+Shift+H (heal all characters to 100% health after the restart cheat or a win)

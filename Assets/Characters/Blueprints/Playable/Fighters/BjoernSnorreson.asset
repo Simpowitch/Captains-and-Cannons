@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db801d4742b52045b8011be5c38b6f6, type: 3}
+  m_Name: BjoernSnorreson
+  m_EditorClassIdentifier: 
+  fighterInformation:
+    characterName: Bjoern Snorreson
+    prefabObject: {fileID: 7781440869668395838, guid: 562aad241c4d86948b9d002d1173d18c,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: 64f4daf8c2a4ff64aa7ef83574dbf2bc,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: 6cd70943b09293c4ba223b44f01b4315,
+      type: 3}
+    recruitmentLine: {fileID: 8300000, guid: aced5f2023e0fb141adb80648e9c2d6c, type: 3}
+    customWantedPoster: {fileID: 21300000, guid: 7d4feca3db60c2e4e9543ad48e490f74,
+      type: 3}
+    backstory: Bjoern Snorresson is not like other vikings; he does not strive to
+      spill blood. Bjoern's goal is to protect his friends and his crew. Bjoern's
+      biggest belief is that even if today we fight as enemies, tomorrow we may fight
+      as brothers. Bjoern might be the strongest viking, but he is also the kindest.
+    maxHP: 86
+    currentHP: 86
+    meleeMinDMG: 20
+    meleeMaxDMG: 26
+    rangedMinDMG: 0
+    rangedMaxDMG: 0
+    critChance: 0.15
+    activeOutDamageModifier: 0.5
+    activeInDamageModifier: 0.25

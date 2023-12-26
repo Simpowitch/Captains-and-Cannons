@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db801d4742b52045b8011be5c38b6f6, type: 3}
+  m_Name: RedCoatFighterIntermediate
+  m_EditorClassIdentifier: 
+  fighterInformation:
+    characterName: Duelist
+    prefabObject: {fileID: 7508874522492874623, guid: 7bc3283246dec0547a8875e3ce31ebf4,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: a56ee64344c45ea40aa14a943286cbd7,
+      type: 3}
+    specialAbilityIcon: {fileID: 0}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 35
+    currentHP: 35
+    meleeMinDMG: 9
+    meleeMaxDMG: 13
+    rangedMinDMG: 0
+    rangedMaxDMG: 0
+    critChance: 0.03
+    activeOutDamageModifier: 0
+    activeInDamageModifier: 0

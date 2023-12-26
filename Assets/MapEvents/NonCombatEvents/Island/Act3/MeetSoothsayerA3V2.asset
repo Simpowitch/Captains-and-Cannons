@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f6623a7ee44b143a753e860e160ccb, type: 3}
+  m_Name: MeetSoothsayerA3V2
+  m_EditorClassIdentifier: Assembly-CSharp::NonCombatEvents
+  title: Meet Soothsayer
+  eventDescription: "As you navigate the outskirts of the island you spot a little
+    hut. You decide to walk inside: \u201CAh come in, let me tell you a fortune,
+    just for a little bit of coin\u201D the scrawny hooded figure gestures for you
+    to sit."
+  image: {fileID: 21300000, guid: 9aeb89f63cea2d84190e6478dbaafeec, type: 3}
+  eventChoices:
+  - choicePreDescription: Pay the soothsayer 30 doubloons
+    choicePostDescription: You feel enlighted and the soothsayer tells you about
+      your near future. You gain 120 experience.
+    choiceConsequences:
+    - typeOfConsequence: 7
+      target: 0
+      xp: 0
+      gold: 30
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 1
+      target: 1
+      xp: 120
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Pay 80 doubloons for a long session
+    choicePostDescription: The soothsayer tells you about what the future holds for
+      each and everyone of your crew, including yourself. Everyone gains 100 experience.
+    choiceConsequences:
+    - typeOfConsequence: 7
+      target: 0
+      xp: 0
+      gold: 80
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+    - typeOfConsequence: 1
+      target: 3
+      xp: 100
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []
+  - choicePreDescription: Leave
+    choicePostDescription: You decide to let fate be unknown and leave the soothsayer.
+    choiceConsequences:
+    - typeOfConsequence: 0
+      target: 0
+      xp: 0
+      gold: 0
+      hp: 0
+      item: {fileID: 0}
+      character: {fileID: 0}
+      randomCharacterList: []

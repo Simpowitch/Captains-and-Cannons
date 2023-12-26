@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dcb4550d3379834784e314812052b7f, type: 3}
+  m_Name: IntermediateFishChef
+  m_EditorClassIdentifier: 
+  chefInformation:
+    characterName: Fishmonger
+    prefabObject: {fileID: 8769318876588778766, guid: 8799c4185bf0d2c4ca3c62c1c9d95a7c,
+      type: 3}
+    defaultCharacterImage: {fileID: 21300000, guid: cbeea6a69585bc14a89b7c60139ca816,
+      type: 3}
+    specialAbilityIcon: {fileID: 21300000, guid: ee169ec614c0be445bb907a089b3a9a3,
+      type: 3}
+    recruitmentLine: {fileID: 0}
+    customWantedPoster: {fileID: 0}
+    backstory: 
+    maxHP: 65
+    currentHP: 65
+    meleeMinDMG: 5
+    meleeMaxDMG: 7
+    rangedMinDMG: 7
+    rangedMaxDMG: 9
+    critChance: 0.05
+    healing: 0
